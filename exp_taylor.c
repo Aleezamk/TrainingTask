@@ -13,7 +13,7 @@ double exp_taylor(double x, int terms) {
 int main() {
     double x = 1.0;
     int terms = 20;
-    printf("e^%.2f ≈ %.10f\n", x, exp_taylor(x, terms));
+    printf("e^%.2f = %.10f\n", x, exp_taylor(x, terms));
     return 0;
 }
 
